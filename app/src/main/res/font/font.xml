@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+    <font
+        android:fontStyle="italic"
+        android:fontWeight="400"
+        android:font="@font/gil_sans_light_italic" />
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/gill_sans_medium" />
+
+    <font
+        android:fontStyle="italic"
+        android:fontWeight="400"
+        android:font="@font/opendans_italic" />
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/opensans_semibold" />
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/opensans_regular" />
+
+</font-family>

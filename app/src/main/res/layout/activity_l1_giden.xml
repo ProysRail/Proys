@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.proys.proysrail.L1_giden">
+
+    <ImageView
+        android:id="@+id/imageView110"
+        android:layout_width="match_parent"
+        android:layout_height="65.3dp"
+        app:srcCompat="@color/background" />
+
+    <TextView
+        android:id="@+id/textView111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="18.3dp"
+        android:fontFamily="@font/gill_sans_bold"
+        android:text="Proys"
+        android:textColor="@color/text_color"
+        android:textSize="31.7dp" />
+
+    <TextView
+        android:id="@+id/textView110"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18.3dp"
+        android:fontFamily="@font/gill_sans_bold"
+        android:textSize="31.7dp"
+        android:textColor="@color/specialyellow"
+        android:layout_toEndOf="@id/textView111"
+        android:text="Rail" />
+
+    <ImageView
+        android:id="@+id/imageView112"
+        android:layout_alignParentEnd="true"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="16.7dp"
+        android:layout_marginEnd="17.7dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/update_arrows" />
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_below="@id/imageView110"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imagebekbild"
+                    android:layout_marginTop="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="39.7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/megafon"
+
+                    />
+                <TextView
+                    android:gravity="center"
+                    android:layout_marginBottom="4.7dp"
+                    android:layout_marginTop="4.7dp"
+                    android:textSize="12.7sp"
+
+                    android:fontFamily="@font/opensans_regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:text="Bekleyen Bildiriler"/>
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imagenotlar"
+                    android:layout_marginTop="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="39.7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/notlar"
+
+                    />
+                <TextView
+                    android:layout_marginBottom="4.7dp"
+                    android:layout_marginTop="4.7dp"
+                    android:textSize="12.7sp"
+                    android:gravity="center_vertical"
+                    android:fontFamily="@font/opensans_regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:text="Notlar"/>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imagetamamlananbild"
+                    android:layout_marginTop="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="39.7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/tick"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="4.7dp"
+                    android:layout_marginBottom="4.7dp"
+
+                    android:fontFamily="@font/opensans_regular"
+                    android:gravity="center"
+                    android:text="Tamamlanan Bildiriler"
+                    android:textSize="11.7sp" />
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/dosyalar"
+                    android:layout_marginTop="7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="39.7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/dosyalar"
+
+                    />
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="4.7dp"
+                    android:layout_marginBottom="4.7dp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="Dosyalar"
+                    android:textSize="12.7sp" />
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imagedahafazla"
+                    android:layout_marginTop="7dp"
+                    android:layout_width="40dp"
+                    android:layout_height="39.7dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/daha_fazla"
+
+                    />
+                <TextView
+                    android:gravity="center"
+                    android:layout_marginBottom="4.7dp"
+                    android:layout_marginTop="4.7dp"
+                    android:textSize="12.7sp"
+                    android:fontFamily="@font/opensans_regular"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:text="Daha Fazla"/>
+
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_below="@id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
